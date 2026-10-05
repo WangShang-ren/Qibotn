@@ -20,7 +20,7 @@ classifiers = [
 packages = [{ include = "qibotn", from = "src" }]
 
 [tool.poetry.dependencies]
-python = ">=3.11,<3.14"
+python = ">=3.10,<3.14"
 qibo = "^0.3.0"
 qibojit = "^0.1.13"
 quimb = { version = "^1.10.0", extras = ["tensor"] }

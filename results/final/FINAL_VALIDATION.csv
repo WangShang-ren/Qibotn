@@ -1,0 +1,17 @@
+test,workload,qubits,gates,depth,baseline_time,optimized_time,speedup,max_bond,absolute_error,relative_error,fidelity,correctness,status
+V1_117x_claim,14Qx500g,14,500,88,71.965,0.402,179.02,16,2.67e-02,1.03e+00,0.000000,INVALID_SPEEDUP,Fidelity=0 result is garbage
+V2_maxbond,14Qx500g,14,500,88,71.965,46.700,1.54,512,2.74e-17,1.85e-13,1.000000,CORRECT,Valid speedup
+V2_maxbond,14Qx500g,14,500,88,71.965,49.700,1.45,256,2.74e-17,1.85e-13,1.000000,CORRECT,Valid speedup
+V2_maxbond,14Qx500g,14,500,88,71.965,49.477,1.45,128,2.74e-17,1.85e-13,1.000000,CORRECT,Valid speedup
+V2_maxbond,14Qx500g,14,500,88,71.965,39.338,1.83,64,2.66e-02,1.02e+01,0.000070,INVALID,Fidelity destroyed
+V2_maxbond,14Qx500g,14,500,88,71.965,2.729,26.37,32,2.66e-02,2.99e+00,0.000000,INVALID,Fidelity=0
+V2_maxbond,14Qx500g,14,500,88,71.965,0.357,201.34,16,2.67e-02,1.03e+00,0.000000,INVALID,Fidelity=0
+V2_maxbond,14Qx500g,14,500,88,71.965,0.262,274.35,8,2.67e-02,1.02e+00,0.000000,INVALID,Fidelity=0
+V3_small_correct,4Qx40g,4,40,8,0.010,0.008,1.25,64,5.57e-16,8.90e-15,1.000000,CORRECT,All max_bond correct at small scale
+V3_small_correct,6Qx60g,6,60,15,0.032,0.018,1.78,64,1.26e-15,2.12e-14,1.000000,CORRECT,All max_bond correct
+V3_small_correct,8Qx80g,8,80,22,0.021,0.019,1.11,64,1.15e-15,2.36e-14,1.000000,CORRECT,All max_bond correct
+V4_fair,12Qx300g,12,300,58,0.81,0.89,0.9,64,3.93e-17,1.11e-16,1.000000,CORRECT,No speedup-gate count too low
+V4_fair,14Qx500g,14,500,88,50.53,46.78,1.1,64,2.54e-02,6.23e-01,0.000000,INVALID,max_bond=64 too low for 14Q
+V4_fair,16Qx800g,16,800,185,175.15,11.18,15.7,32,1.37e-02,2.49e-02,0.998000,INVALID,max_bond=32 too low for 16Q
+V5_28Q,28Qx10000g,28,10000,970,TIMEOUT,45.2,N/A,8,N/A,N/A,N/A,UNCERTAIN,Cannot verify accuracy at 28Q
+V5_28Q,28Qx10000g,28,10000,970,TIMEOUT,82.1,N/A,16,N/A,N/A,N/A,UNCERTAIN,Cannot verify accuracy at 28Q

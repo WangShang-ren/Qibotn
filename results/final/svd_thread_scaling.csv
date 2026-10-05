@@ -1,0 +1,6 @@
+test,threads,runtime_mean,runtime_min,fidelity,workload,max_bond
+thread_scaling,1,54.74,53.26,1.0,14Qx500g,512
+thread_scaling,2,56.05,53.54,1.0,14Qx500g,512
+thread_scaling,4,56.92,55.36,1.0,14Qx500g,512
+thread_scaling,8,57.73,56.56,1.0,14Qx500g,512
+thread_scaling,16,53.72,52.22,1.0,14Qx500g,512
